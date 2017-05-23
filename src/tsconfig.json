@@ -1,0 +1,30 @@
+{
+    "atom": {
+        "rewriteTsconfig": false
+    },
+    "buildOnSave": false,
+    "compileOnSave": false,
+    "compilerOptions": {
+        "baseUrl": "",
+        "outDir": "../lib",
+        "target": "es5",
+        "moduleResolution": "node",
+        "sourceMap": true,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "lib": ["es2016", "dom"],
+        "declaration": true,
+        "typeRoots": [
+            "../node_modules/@types"
+        ]
+    },
+    "exclude": [
+        "node_modules"
+    ],
+    "files": [
+        "./index.ts"
+    ],
+    "angularCompilerOptions": {
+        "genDir": "../temp/factories"
+    }
+}

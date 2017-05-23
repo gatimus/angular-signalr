@@ -1,0 +1,5 @@
+{
+    "name": "angular-signalr",
+    "main": "./index.js",
+    "types": "./index.d.ts"
+}

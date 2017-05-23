@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/hub.ts"],"names":[],"mappings":";;AAGA;IAII,aACc,OAAuB,EACjC,UAAsB,EACtB,OAAe;QAFL,YAAO,GAAP,OAAO,CAAgB;QAIjC,oBAAoB;QACpB,IAAI,CAAC,GAAG,GAAG,UAAU,CAAC,SAAS,CAAC,OAAO,CAAC,CAAC;IAC7C,CAAC;IAEL,UAAC;AAAD,CAbA,AAaC,IAAA;AAbqB,kBAAG","file":"hub.js","sourceRoot":""}

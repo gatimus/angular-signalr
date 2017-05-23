@@ -1,0 +1,11 @@
+{
+  "version": "0.0.0",
+  "license": "MIT",
+  "name": "angular-signalr",
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "_id": "angular-signalr@",
+  "devDependencies": {},
+  "dependencies": {},
+  "peerDependencies": {}
+}

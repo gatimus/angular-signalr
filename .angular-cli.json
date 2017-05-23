@@ -5,7 +5,7 @@
   },
   "apps": [
     {
-      "root": "src",
+      "root": "demo",
       "outDir": "dist",
       "assets": [
         "assets",
@@ -21,7 +21,10 @@
       "styles": [
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/signalr/jquery.signalR.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
@@ -36,10 +39,10 @@
   },
   "lint": [
     {
-      "project": "src/tsconfig.app.json"
+      "project": "demo/tsconfig.app.json"
     },
     {
-      "project": "src/tsconfig.spec.json"
+      "project": "demo/tsconfig.spec.json"
     },
     {
       "project": "e2e/tsconfig.e2e.json"
